@@ -1,0 +1,76 @@
+.customers table th,td{
+  border: 1px solid #f3f3f3;
+  text-align: start;
+  padding: 4px;
+}
+
+.customers table tr:nth-child(even){
+  background-color: #fafafa;
+}
+.customers table tbody tr:hover{
+  background-color: #ffe4f1;
+  transition: 0.2s ease;
+}
+
+.fill-white{
+  fill: #fff;
+}
+.close{
+  width: 30px;
+  height: 30px;
+}
+.close a{
+  width: 30px;
+  height: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.close:hover a{
+  background-color: #fc4141;
+  transition: 0.2s ease;
+  color: #fff;
+}
+
+#form-container form{
+  display: flex;
+  align-items: center;
+}
+.form-container form > div input{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 4px 0;
+  border: 1px solid gainsboro;
+}
+.form-container form > div .inputCat{
+  border-radius: 4px 0  0 4px;
+}
+.form-container form > div .btn{
+  border: none;
+  background: #23deff;
+  padding: 4px 3px;
+  font-size: 17px;
+  border-radius: 0 4px 4px 0;
+}
+
+.form-container form > div .btn:hover{
+  transition: 1s ease;
+  background: #02cef1;
+}
+.form-containe#13dcff> div > input, label{
+  width: 50%;
+}
+.form-container form > div > label,select{
+  width: 50%;
+  border: none;
+  outline: none;
+}
+#open > div{
+  padding: 4px 2px;
+}
+
+#form-container,#times{
+  display: none;
+  transition: 1s ease;
+}

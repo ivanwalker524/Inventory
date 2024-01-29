@@ -1,0 +1,167 @@
+[data-theme="light"] {
+  --color-bg:#ffffff;
+  --color:#000000;
+}
+
+[data-theme="dark"] {
+  --color-bg:#000000;
+  --color:#ffffff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track{
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+}
+
+*::-webkit-slider-thumb{
+  border-radius: 10px;
+  background-color: #ececec;
+  transition: 0.8s;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+  background-color: #535353;
+}
+
+
+body{
+  height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color);
+  overflow-y: hidden;
+}
+.icon-rounded{
+  width: 35px;
+  height: 35px;
+  fill: #acacac;
+  border: 1px solid #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon-rounded > span{
+  width: 20px;
+}
+
+body::-webkit-scrollbar-thumb{
+  width: 20px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.created{
+  width: 50%;
+  height: 200px;
+  background: blue;
+  position: absolute;
+  top: 10%;
+  z-index: 999;
+}
+.text-2xl{
+  font-size: 17px  !important;
+}
+
+.w-fit{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.pr-3 > input{
+  border: 1px solid gray;
+  outline: none;
+}
+
+.cat-form input.i{
+  width: 100%;
+  background-color: #e4e4e4;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  outline: none;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+
+.radio{
+  position: relative;
+  cursor: pointer;
+  /* width: 25%; */
+}
+.radio input{
+  opacity: 0;
+}
+
+.checkmark{
+  position: absolute;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #dadada;
+  border: 1px solid #2196f3;
+  border-radius: 50%;
+}
+.radio:hover input ~ .checkmark {
+  background-color: #eee;
+}
+.radio input:checked ~ .checkmark {
+  background: #2196f3;
+}
+
+.checkmark::after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.radio .checkmark::after{
+  top: 4px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.product-btn1,.product-btn2{
+  padding: 8px 0;
+  font: bold;
+}
+
+.product-btn1:focus{
+  outline: none;
+}
+
+.product-btn1{
+  background-color: #0e410e;
+  color: #fff;
+}
+
+.product-btn2{
+  background-color: #ff7f50;
+}
+
+.bars{
+  display: flex;
+  width: 20px;
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  z-index: 999999;
+  display: none;
+}

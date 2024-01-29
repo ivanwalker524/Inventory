@@ -1,0 +1,51 @@
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #fbfeff;
+}
+#logo-2{
+  display: none;
+}
+.logo-profile{
+  width: 60px;
+  height: 60px;
+  background-color: #47007a;
+  display: flex;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.sideBar-links > div{
+  margin-top: 4px;
+  width: 100%;
+}
+.sideBar-links > div > a{
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  margin-right:3px;
+  padding: 10px 5px;
+  color: #444444;
+}
+.sideBar-links > div > a.active{
+  background: #112c5f;
+  color: #fff;
+  fill: #fff;
+  border-bottom-right-radius: 30px;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  fill: #a8a8a8;
+}
+

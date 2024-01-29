@@ -1,0 +1,25 @@
+.nav div{
+  padding: 15px 10px;
+  margin: 0 4px;
+}
+
+.nav-bg{
+  background-color: aliceblue;
+}
+
+#logo-3{
+  display: none;
+}
+
+#night{
+  display: none;
+}
+#box{
+  display: none;
+  background-color:lightsteelblue;
+  top: 76%;
+  z-index: 999;
+  transition: 1s ease;
+  border-radius: 5px;
+  right: 4px;
+}

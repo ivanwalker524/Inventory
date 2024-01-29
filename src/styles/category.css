@@ -1,0 +1,21 @@
+.pagination{
+  padding: 4px 0;
+  margin-top: 5px;
+  padding: 8px 5px;
+}
+.pagination > div > div:last-child{
+  border: 1px solid #dbdbdb;
+  padding: 0 4px;
+}
+.pagination > div > div:last-child > div > a{
+  background-color: #5555e9;
+  font-weight: bold;
+  color: #fff;
+}
+.search{
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  margin-left: 2px;
+  outline: none;
+  padding: 2px;
+}
